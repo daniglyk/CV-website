@@ -164,7 +164,21 @@
                 </div>
             </div>
         </div>
+            <div class="col-md-12 section-heading">
+                    <h2>Contact me</h2>
+
+                    <hr class="white">
+                </div>
     </section>
+    
+    <form action="send.php" method="post">
+        <input class="input" type="text" name="login" placeholder="Your name" required />
+        <input class="input" type="password" name="pass" placeholder="Organization" required />
+        <input class="input" type="email" name="email" placeholder="Your email" required />
+        <input class="input" type="tel" name="tel" placeholder="Your telephone number" required />
+        
+        <input class="send" type="submit" value="Send a message" />
+    </form>
 
     <footer class="footer">
         <div class="container">
@@ -174,9 +188,8 @@
                     "_blank">Daniglyk</a><br>
                 </div>
                 <div class="col-md-4 text-center">
-                    <p>Contact me:</a> <a target=
-                    "_blank">daniglyk2@icloud.com</a> or <a target=
-                    "_blank">+375(29)209-79-72</p>
+                    <p>Contact me:</a>  <a target=
+                    "_blank" href="tel:8(029)-209-79-72">+375(29)209-79-72</p>
                 </div>
                 <div class="col-md-4">
                     <div class="social-footer"> <a href=
